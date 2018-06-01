@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xieminghui.house.mapper.UserMapper">
+
+    <select id="selectUsers" resultType="user">
+        SELECT * from user
+    </select>
+
+    <select id="selectUser" resultType="user">
+        select name,phone,email from user WHERE  id = 7
+    </select>
+
+
+</mapper>

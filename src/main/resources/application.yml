@@ -1,0 +1,44 @@
+server:
+  port: 8888
+#spring:
+#  datasource:
+#    username: root
+#    password: xmhxmh
+#    url: jdbc:mysql://localhost:3306/houses?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+#    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+
+
+spring:
+  druid:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/houses?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false
+    username: root
+    password: xmhxmh
+
+    # 最大连接数目
+    maxActive: 30
+    # 最小连接数目
+    minIdle: 5
+    #获取连接数的最大等待时间 10秒
+    maxWait: 10000
+    #解决mysql 8小时的问题  主动剔除超过8小时空闲连接
+    validationQuery: SELECT 'x'
+    #空闲连接时间检查间隔 60秒
+    timeBetweenEvictionRunsMills: 60000
+    #空闲连接最小空闲时间  大于300秒就可以剔除了
+    minEvictableIdleTimeMillis: 30000
+  freemarker:
+    charset: utf-8
+    content-type: text/html;charset=UTF-8
+    expose-request-attributes: true
+    expose-session-attributes: true
+    expose-spring-macro-helpers: true
+    suffix: .ftl
+    settings:
+      datetime_format: yyyy-MM-dd HH:mm:ss
+      default_encoding: UTF-8
+      auto_import: common/common.ftl as common
+
+
