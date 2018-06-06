@@ -22,15 +22,22 @@ public class User {
 
     private String passwd;
 
-    private String avatar;
+    private String confirmPasswd;
 
     private int type;
 
     private Date createTime;
+    
+    private String avator;
+
+    private String avatorFile;
+
+    private String newPassword;
+
 
     private int enable;
 
-    private int agencyId;
+    private Long agencyId;
 
 
 

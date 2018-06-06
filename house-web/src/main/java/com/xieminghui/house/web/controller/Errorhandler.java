@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.concurrent.CountDownLatch;
 
 @ControllerAdvice //controller 辅助类 可以帮忙写异常 如果发生500错误 ，就会记录
 public class Errorhandler {
@@ -19,3 +20,4 @@ public class Errorhandler {
 		return "error/500";
 	}
 }
+
