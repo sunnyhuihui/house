@@ -14,14 +14,27 @@
     </settings>
 
 
-    <!-- 可以把 别名换成这个-->
     <typeAliases>
-        <typeAlias type="com.xieminghui.house.common.entity.User" alias="user" />
+        <typeAlias type="com.xieminghui.house.common.model.User" alias="user" />
+        <typeAlias type="com.xieminghui.house.common.model.Agency"      alias="agency"/>
+        <typeAlias type="com.xieminghui.house.common.model.House" alias="house" />
+        <typeAlias type="com.xieminghui.house.common.model.City" alias="city" />
+        <typeAlias type="com.xieminghui.house.common.model.Comment"     alias="comment"/>
+        <typeAlias type="com.xieminghui.house.common.model.Community" alias="community" />
+        <typeAlias type="com.xieminghui.house.common.model.HouseUser" alias="houseUser" />
+        <typeAlias type="com.xieminghui.house.common.model.Blog"        alias="blog"/>
+        <typeAlias type="com.xieminghui.house.common.model.User"        alias="user"/>
+        <typeAlias type="com.xieminghui.house.common.model.UserMsg"     alias="userMsg"/>
+        <typeAlias type="com.xieminghui.house.common.model.HouseUser"     alias="houseUser"/>
+
     </typeAliases>
 
-    <!-- 定义mapper文件的路径 -->
     <mappers>
         <mapper resource="mapper/user.xml" />
+        <mapper resource="mapper/blog.xml"/>
+        <mapper resource="mapper/house.xml" />
+        <mapper resource="mapper/comment.xml"/>
+        <mapper resource="mapper/agency.xml" />
     </mappers>
 
 </configuration>

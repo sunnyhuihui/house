@@ -1,6 +1,7 @@
 package com.xieminghui.house.web.controller;
 
 import com.xieminghui.house.biz.service.UserService;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -16,12 +17,6 @@ public class HelloController {
     @Autowired
     private UserService userService;
 
-
-    @RequestMapping("/hello2")
-    public String hello(ModelMap modelMap){
-        modelMap.put("user",userService.getUser());
-        return "hello";
-    }
 
 
     @RequestMapping("/index")

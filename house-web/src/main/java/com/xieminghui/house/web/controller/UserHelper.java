@@ -1,6 +1,6 @@
 package com.xieminghui.house.web.controller;
 
-import com.xieminghui.house.common.entity.User;
+import com.xieminghui.house.common.model.User;
 import com.xieminghui.house.common.result.ResultMsg;
 import org.springframework.util.StringUtils;
 

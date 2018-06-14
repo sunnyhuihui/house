@@ -1,5 +1,6 @@
 package com.xieminghui.house.web.controller;
 
+import com.xieminghui.house.common.model.User;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

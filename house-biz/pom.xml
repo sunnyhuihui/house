@@ -52,6 +52,8 @@
             <version>1.2.0</version>
         </dependency>
 
+
+        <!-- springboot email 起步依赖 用来发送邮箱-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>

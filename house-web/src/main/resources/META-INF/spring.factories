@@ -1,7 +1,0 @@
-
-# 这个文件表示 ，该路径下面的配置  bean 会自动被 扫描，然后加载到spring容器
-# 默认是com.xieminghui.house下面的启动类 也就是 spring boot 启动类的子类才会被扫描，不是默认的话
-# 是需要配置的
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.xieminghui.house.mooc1.house.autoconfig.HttpClientAutoConfiguration
-#com.mooc1.house.HttpClientAutoConfiguration

@@ -1,6 +1,6 @@
 package com.xieminghui.house.biz.mapper;
 
-import com.xieminghui.house.common.entity.User;
+import com.xieminghui.house.common.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -14,5 +14,12 @@ public interface UserMapper {
 
     List<User> selectUsers();
 
-    User selectUser();
+    int insert(User account);
+
+    int delete(String email);
+
+    int update(User updateUser);
+
+
+    List<User> selectUsersByQuery(User user);
 }

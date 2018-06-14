@@ -6,9 +6,73 @@
         SELECT * from user
     </select>
 
-    <select id="selectUser" resultType="user">
-        select name,phone,email from user WHERE  id = 7
+
+    <select id="selectUsersByQuery" resultType="user">
+        select * from user
+        <where>
+            <if test="id !=null" >
+                and id = #{id}
+            </if>
+            <if test="email != null">
+                and email = #{email}
+            </if>
+            <if test="passwd != null">
+                and passwd = #{passwd}
+            </if>
+            <if test="enable != null">
+                and enable = #{enable}
+            </if>
+            <if test = "type != null and type!=0">
+                and type = #{type}
+            </if>
+        </where>
     </select>
 
+     <insert id="insert">
+      insert into user(
+        name, phone, email, aboutme, passwd, avatar, type, create_time, enable
+      ) values (
+        #{name},
+        #{phone},
+        #{aboutme},
+        #{passwd},
+        #{avatar},
+        #{type},
+        #{createTime},
+        #{enable}
+      )
 
+     </insert>
+
+    <delete id="delete">
+        delete from user
+        where email = #{email} and enable = 0;
+    </delete>
+
+
+
+    <update id="update">
+      update user
+      <set>
+          <if test="phone !=null and phone != ''">
+              phone = #{phone},
+          </if>
+          <if test="name !=null and name != ''">
+              name = #{name},
+          </if>
+          <if test="aboutme !=null and aboutme != ''">
+              aboutbe = #{aboutme},
+          </if>
+          <if test="passwd !=null and passwd != ''">
+              passwd = #{passwd},
+          </if>
+          <if test="enable !=null ">
+              enable = #{enable},
+          </if>
+          <if test="avatar !=null and avatar != ''">
+              avatar = #{avatar},
+          </if>
+      </set>
+        where email = #{email}
+    </update>
 </mapper>
