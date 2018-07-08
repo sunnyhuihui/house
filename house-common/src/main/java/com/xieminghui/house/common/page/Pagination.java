@@ -4,10 +4,11 @@ import com.google.common.collect.Lists;
 
 import java.util.List;
 
+
 public class Pagination {
-	private int pageNum;
-	private int pageSize;
-	private long totalCount;
+	private int pageNum;     //第几页
+	private int pageSize;  	 //每页大小
+	private long totalCount; //总条数
 	private List<Integer> pages = Lists.newArrayList();
 
 	public Pagination(Integer pageSize,Integer pageNum,Long totalCount) {
@@ -17,6 +18,7 @@ public class Pagination {
 	   for(int i=1;i<=pageNum;i++){
 		   pages.add(i);
 	   }
+	   //算出总的页数
 	   Long pageCount = totalCount/pageSize + ((totalCount % pageSize == 0 ) ? 0: 1);
 	   if (pageCount > pageNum) {
 		  for(int i= pageNum + 1; i<= pageCount ;i ++){

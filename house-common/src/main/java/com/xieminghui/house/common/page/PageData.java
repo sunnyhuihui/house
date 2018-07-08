@@ -1,8 +1,7 @@
 package com.xieminghui.house.common.page;
 
 import java.util.List;
-
-
+//返回分页的数据
 public class PageData<T> {
 
 	private List<T> list;

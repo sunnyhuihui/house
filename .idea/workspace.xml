@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17a70bdd-aece-4f07-8ac4-12e25a71c048" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/MailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/MailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/com/xieminghui/house/biz/service/MailService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/com/xieminghui/house/biz/service/MailService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/com/xieminghui/house/biz/service/MailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/com/xieminghui/house/biz/service/MailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-biz/target/classes/mapper/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/target/classes/mapper/user.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthActionInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthActionInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/WebMvcConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/interceptor/WebMvcConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/test/java/com/xieminghui/house/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/AuthActionInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/AuthActionInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/AuthInterceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/AuthInterceptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/WebMvcConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/com/xieminghui/house/web/interceptor/WebMvcConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/HouseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/HouseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/blog.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/blog.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/Community.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/Community.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/PageData.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/PageData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/Pagination.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/Pagination.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/house-info.2018-06-08-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-info.2018-07-08-10.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/house-warn.2018-06-08-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/house-warn.2018-07-08-10.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/house-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/house-warn.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/house-web/target/" />
@@ -53,41 +43,79 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="houses@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="houses@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="houses@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="houses: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application-dev.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="494">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/house-web/src/test/java/com/xieminghui/house/AuthTest.java">
+      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="270">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/blog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agency.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HouseService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,43 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RunWith.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/RunWith.java">
+      <file leaf-file-name="House.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/House.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="20" selection-start-line="20" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+            <state relative-caret-position="186">
+              <caret line="158" column="25" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -151,6 +147,8 @@
       <find>registerCache</find>
       <find>resetCache</find>
       <find>aboutbe</find>
+      <find>selectPageHou</find>
+      <find>selectPageHouses</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,12 +169,10 @@
         <option value="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/HouseUser.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/RecommendService.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/CommentMapper.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/HouseMapper.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/BlogMapper.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/AgencyMapper.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/FileService.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/AgencyService.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/interceptor/AuthInterceptor.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/interceptor/UserContext.java" />
@@ -188,7 +184,6 @@
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/CommentService.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/BlogService.java" />
-        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/register.ftl" />
         <option value="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/User.java" />
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/MailService.java" />
@@ -201,6 +196,18 @@
         <option value="$PROJECT_DIR$/house-common/pom.xml" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/UserController.java" />
         <option value="$PROJECT_DIR$/house-web/src/test/java/com/xieminghui/house/AuthTest.java" />
+        <option value="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/HousesController.java" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/Community.java" />
+        <option value="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/PageData.java" />
+        <option value="$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/Pagination.java" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java" />
+        <option value="$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/HouseController.java" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/HouseMapper.java" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/blog.xml" />
+        <option value="$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml" />
       </list>
     </option>
   </component>
@@ -244,6 +251,77 @@
             <path>
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-biz" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
               <item name="house-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -258,6 +336,44 @@
               <item name="house-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -275,36 +391,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="house-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="house-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="house-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,6 +411,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -464,7 +551,7 @@
       <workItem from="1530678790943" duration="2917000" />
       <workItem from="1530701183676" duration="4058000" />
       <workItem from="1530709877888" duration="1401000" />
-      <workItem from="1530890030419" duration="8830000" />
+      <workItem from="1530890030419" duration="12920000" />
     </task>
     <servers />
   </component>
@@ -477,11 +564,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42793000" />
+    <option name="totallyTimeSpent" value="46883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969698" />
@@ -489,7 +575,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.329718" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32904148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -501,7 +587,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6606061" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50666666" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32848486" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26609442" />
@@ -511,6 +597,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="9" weight="0.32900944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" weight="0.32969698" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -531,58 +618,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/interceptor/UserContext.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/interceptor/WebMvcConf.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/interceptor/AuthActionInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/interceptor/AuthInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/interceptor/WebMvcConf.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/interceptor/AuthActionInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/interceptor/AuthInterceptor.java" />
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/interceptor/UserContext.java" />
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/UserServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/BlogService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/CityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/AgencyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="716">
-          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/RecommendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/META-INF/spring.factories" />
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/user/accounts/register.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -592,16 +627,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="128" column="71" selection-start-line="128" selection-start-column="71" selection-end-line="128" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/HouseApplication.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -829,13 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/js/ie.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -845,13 +856,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/test/java/com/xieminghui/house/AuthTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="450">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d4bce43f-7d2e-4737-9d01-febba91ce8ec/schema/houses/table/community">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d4bce43f-7d2e-4737-9d01-febba91ce8ec/schema/houses/table/house">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/Pagination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/Community.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/page/PageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/AgencyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.2/mybatis-3.4.2.jar!/org/apache/ibatis/annotations/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-common/src/main/java/com/xieminghui/house/common/model/House.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="158" column="25" selection-start-line="158" selection-start-column="14" selection-end-line="158" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/service/HouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="66" column="53" selection-start-line="66" selection-start-column="53" selection-end-line="66" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/house.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/comment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/blog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/agency.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/xieminghui/house/web/controller/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/xieminghui/house/biz/mapper/HouseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>

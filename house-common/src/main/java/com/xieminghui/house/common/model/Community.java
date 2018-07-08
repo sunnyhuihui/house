@@ -1,5 +1,6 @@
 package com.xieminghui.house.common.model;
 
+//小区 ， 需要有小区id 小区名字
 public class Community {
 	private Integer id;
 	private String cityCode;

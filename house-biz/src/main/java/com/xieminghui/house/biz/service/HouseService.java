@@ -44,24 +44,33 @@ public class HouseService {
 	 */
 	public PageData<House> queryHouse(House query, PageParams pageParams) {
 		List<House> houses = Lists.newArrayList();
+		//查询的房子的名字
 		if (!Strings.isNullOrEmpty(query.getName())) {
 			Community community = new Community();
 			community.setName(query.getName());
+			//通过名字查找小区列表
 			List<Community> communities = houseMapper.selectCommunity(community);
 			if (!communities.isEmpty()) {
+				//通过名字查找小区id
 				query.setCommunityId(communities.get(0).getId());
 			}
 		}
+		//查询房屋
 		houses = queryAndSetImg(query,pageParams);//添加图片服务器地址前缀
 		Long count = houseMapper.selectPageCount(query);
+
+		//构建分页的数据 里面有房屋的信息  包括分页的信息
 		return PageData.buildPage(houses, count, pageParams.getPageSize(), pageParams.getPageNum());
 	}
 
 	public List<House> queryAndSetImg(House query, PageParams pageParams) {
 		List<House> houses =   houseMapper.selectPageHouses(query, pageParams);
 		houses.forEach(h ->{
+			//添加房子首页图
 			h.setFirstImg(imgPrefix + h.getFirstImg());
+			//添加房子详情页
 			h.setImageList(h.getImageList().stream().map(img -> imgPrefix + img).collect(Collectors.toList()));
+			//添加房子户型图
 		    h.setFloorPlanList(h.getFloorPlanList().stream().map(img -> imgPrefix + img).collect(Collectors.toList()));
 		});
 		return houses;

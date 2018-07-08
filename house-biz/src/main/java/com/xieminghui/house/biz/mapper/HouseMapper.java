@@ -10,8 +10,10 @@ import java.util.List;
 @Mapper
 public interface HouseMapper {
 
+	//记得需要Param注解
     public List<House>  selectPageHouses(@Param("house") House house, @Param("pageParams") PageParams pageParams);
 
+    //返回总数方便分页
     public Long selectPageCount(@Param("house") House query);
 
 	public int insert(User account);
