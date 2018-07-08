@@ -6,6 +6,7 @@ import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
 @Configuration
+//这个类可以控制拦截器的顺序
 public class WebMvcConf extends WebMvcConfigurerAdapter {
 
 	@Autowired
@@ -16,8 +17,9 @@ public class WebMvcConf extends WebMvcConfigurerAdapter {
 	
 	@Override
 	public void addInterceptors(InterceptorRegistry registry){
+		//这里是不拦截的请求 authInterceptor 第一个拦截器
 		 registry.addInterceptor(authInterceptor).excludePathPatterns("/static").addPathPatterns("/**");
-		    registry
+		    registry //这里是拦截的请求 authActionInterceptor 第二个拦截器
 		        .addInterceptor(authActionInterceptor).addPathPatterns("/house/toAdd")
 		        .addPathPatterns("/accounts/profile").addPathPatterns("/accounts/profileSubmit")
 		        .addPathPatterns("/house/bookmarked").addPathPatterns("/house/del")

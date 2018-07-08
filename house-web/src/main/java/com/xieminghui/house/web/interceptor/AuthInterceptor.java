@@ -13,6 +13,7 @@ import javax.servlet.http.HttpSession;
 import java.util.Map;
 
 @Component
+//鉴权拦截器的实现
 public class AuthInterceptor implements HandlerInterceptor{
 
 	@Override

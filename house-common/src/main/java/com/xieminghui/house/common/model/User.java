@@ -7,166 +7,166 @@ import java.util.Date;
 
 public class User {
 
-	private Long id;
-	
-	private String email;
-	
-	private String phone;
-	
-	private String name;
-	
-	private String passwd;
-	
-	private String confirmPasswd;
-	
-	private Integer type;//普通用户1，经纪人2
-	
-	private Date   createTime;
-	
-	private Integer enable;
-	
-	private String  avatar;
-	
-	private MultipartFile avatarFile;
-	
-	private String newPassword;
-	
-	private String key;
-	
-	private Long   agencyId;
-	
-	private String aboutme;
-	
-	private String agencyName;
+    private Long id;
 
-	public Long getId() {
-		return id;
-	}
+    private String email;
 
-	public String getEmail() {
-		return email;
-	}
+    private String phone;
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    private String name;
 
-	public String getPhone() {
-		return phone;
-	}
+    private String passwd;
 
-	public void setPhone(String phone) {
-		this.phone = phone;
-	}
+    private String confirmPasswd;
 
-	public String getPasswd() {
-		return passwd;
-	}
+    private Integer type;//普通用户1，经纪人2
 
-	public void setPasswd(String passwd) {
-		this.passwd = passwd;
-	}
+    private Date createTime;
 
-	public String getConfirmPasswd() {
-		return confirmPasswd;
-	}
+    private Integer enable; //0 表示未激活  1表示已激活
 
-	public void setConfirmPasswd(String confirmPasswd) {
-		this.confirmPasswd = confirmPasswd;
-	}
+    private String avatar;
 
-	public String getAboutme() {
-		return aboutme;
-	}
+    private MultipartFile avatarFile;
 
-	public void setAboutme(String aboutme) {
-		this.aboutme = aboutme;
-	}
+    private String newPassword;
 
-	public Integer getType() {
-		return type;
-	}
+    private String key;
 
-	public void setType(Integer type) {
-		this.type = type;
-	}
+    private Long agencyId;
 
-	public Date getCreateTime() {
-		return createTime;
-	}
+    private String aboutme;
 
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
-	}
+    private String agencyName;
 
-	public Integer getEnable() {
-		return enable;
-	}
+    public Long getId() {
+        return id;
+    }
 
-	public void setEnable(Integer enable) {
-		this.enable = enable;
-	}
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getPasswd() {
+        return passwd;
+    }
+
+    public void setPasswd(String passwd) {
+        this.passwd = passwd;
+    }
+
+    public String getConfirmPasswd() {
+        return confirmPasswd;
+    }
+
+    public void setConfirmPasswd(String confirmPasswd) {
+        this.confirmPasswd = confirmPasswd;
+    }
+
+    public String getAboutme() {
+        return aboutme;
+    }
+
+    public void setAboutme(String aboutme) {
+        this.aboutme = aboutme;
+    }
+
+    public Integer getType() {
+        return type;
+    }
+
+    public void setType(Integer type) {
+        this.type = type;
+    }
+
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Integer getEnable() {
+        return enable;
+    }
+
+    public void setEnable(Integer enable) {
+        this.enable = enable;
+    }
 
 
-	public String getNewPassword() {
-		return newPassword;
-	}
+    public String getNewPassword() {
+        return newPassword;
+    }
 
-	public void setNewPassword(String newPassword) {
-		this.newPassword = newPassword;
-	}
+    public void setNewPassword(String newPassword) {
+        this.newPassword = newPassword;
+    }
 
-	public MultipartFile getAvatarFile() {
-		return avatarFile;
-	}
+    public MultipartFile getAvatarFile() {
+        return avatarFile;
+    }
 
-	public void setAvatarFile(MultipartFile avatarFile) {
-		this.avatarFile = avatarFile;
-	}
+    public void setAvatarFile(MultipartFile avatarFile) {
+        this.avatarFile = avatarFile;
+    }
 
-	public String getAgencyName() {
-    return agencyName;
-  }
+    public String getAgencyName() {
+        return agencyName;
+    }
 
-  public void setAgencyName(String agencyName) {
-    this.agencyName = agencyName;
-  }
+    public void setAgencyName(String agencyName) {
+        this.agencyName = agencyName;
+    }
 
-  public String getKey() {
-		return key;
-	}
+    public String getKey() {
+        return key;
+    }
 
-	public void setKey(String key) {
-		this.key = key;
-	}
+    public void setKey(String key) {
+        this.key = key;
+    }
 
-	public Long getAgencyId() {
-		return agencyId;
-	}
+    public Long getAgencyId() {
+        return agencyId;
+    }
 
-	public void setAgencyId(Long agencyId) {
-		this.agencyId = agencyId;
-	}
+    public void setAgencyId(Long agencyId) {
+        this.agencyId = agencyId;
+    }
 
-	public String getAvatar() {
-		return avatar;
-	}
+    public String getAvatar() {
+        return avatar;
+    }
 
-	public void setAvatar(String avatar) {
-		this.avatar = avatar;
-	}
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
-	
-	
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+
 }

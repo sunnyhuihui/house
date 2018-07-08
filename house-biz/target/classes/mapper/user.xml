@@ -34,6 +34,7 @@
       ) values (
         #{name},
         #{phone},
+        #{email},
         #{aboutme},
         #{passwd},
         #{avatar},
@@ -61,7 +62,7 @@
               name = #{name},
           </if>
           <if test="aboutme !=null and aboutme != ''">
-              aboutbe = #{aboutme},
+              aboutme = #{aboutme},
           </if>
           <if test="passwd !=null and passwd != ''">
               passwd = #{passwd},

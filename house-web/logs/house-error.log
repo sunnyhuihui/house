@@ -1,0 +1,17 @@
+2018-07-08 10:58:47.887 [registrationTask1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:95] registrationTask1cid - Unexpected error occurred in scheduled task.
+java.lang.IllegalStateException: serviceUrl must be set when deployed to servlet-container
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getServiceUrl(DefaultApplicationFactory.java:61) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getManagementUrl(DefaultApplicationFactory.java:77) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.getHealthUrl(DefaultApplicationFactory.java:92) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.DefaultApplicationFactory.createApplication(DefaultApplicationFactory.java:46) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.createApplication(ApplicationRegistrator.java:126) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.ApplicationRegistrator.register(ApplicationRegistrator.java:65) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at de.codecentric.boot.admin.client.registration.RegistrationApplicationListener$1.run(RegistrationApplicationListener.java:80) ~[spring-boot-admin-starter-client-1.5.0.jar:1.5.0]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-4.3.9.RELEASE.jar:4.3.9.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_172]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_172]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_172]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_172]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_172]

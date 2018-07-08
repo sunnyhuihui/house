@@ -15,6 +15,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @Service
@@ -28,11 +29,11 @@ public class MailService {
    @Autowired
    private UserMapper userMapper;
 
-   @Value("spring.mail.username")
+   @Value("${spring.mail.username}")
    private String from;
 
 
-   @Value("domain.name")
+   @Value("${domain.name}")
    private String domainName; //邮箱ip 服务器ip+端口
 
    //本地缓存 guava Cache
@@ -47,11 +48,20 @@ public class MailService {
                       @Override
                       public void onRemoval(RemovalNotification<String, String> removalNotification) {
                          // key - value(email)
-                         userMapper.delete(removalNotification.getValue());
+                         String email = removalNotification.getValue();
+                         User user = new User();
+                         user.setEmail(email);
+                         List<User> userList = userMapper.selectUsersByQuery(user);
+                         //0表示为激活
+                         if (!userList.isEmpty()&&userList.get(0).getEnable()==0){
+                            userMapper.delete(removalNotification.getValue());
+                         }
+
                       }
                    }).build();
 
 
+   //重置密码的cache
    private final Cache<String, String> resetCache =  CacheBuilder.newBuilder().maximumSize(100).expireAfterAccess(15, TimeUnit.MINUTES).build();
 
    public void sentEmail(String title, String url, String email) {
@@ -78,7 +88,7 @@ public class MailService {
       registerCache.put(randomKey,email);
 
       //发送邮件
-      String url = "http://"+domainName+"/accounts/verify?key"+randomKey;
+      String url = "http://"+domainName+"/accounts/verify?key="+randomKey;
 
       //第一个参数是email的标题， 第二个是链接 ，第三个是用户的email
       sentEmail("房产平台激活邮箱",url,email);

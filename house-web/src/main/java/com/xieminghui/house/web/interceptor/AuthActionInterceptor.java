@@ -15,6 +15,7 @@ public class AuthActionInterceptor implements HandlerInterceptor {
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)
 			throws Exception {
+		//UserContext表示一个本地线程，里面放着user对象
 		User user = UserContext.getUser();
 		if (user == null) {
 			String msg = URLEncoder.encode("请先登录","utf-8");
