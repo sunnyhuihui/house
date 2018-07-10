@@ -131,7 +131,6 @@
                                 </div>
                             </div><!-- /.property -->
                             </#list>
-                            
                         </aside><!-- /#featured-properties -->
                         
                     </section><!-- /#sidebar -->

@@ -54,8 +54,11 @@ public class AgencyService {
   }
 
   public PageData<User> getAllAgent(PageParams pageParams) {
+    //查询所有的中介，根据条件
     List<User> agents = agencyMapper.selectAgent(new User(), pageParams);
+    //设置中介的图片
     setImg(agents);
+    //查出中介的全部条数
     Long count = agencyMapper.selectAgentCount(new User());
     return PageData.buildPage(agents, count, pageParams.getPageSize(), pageParams.getPageNum());
   }
