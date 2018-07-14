@@ -25,8 +25,9 @@ public class FileService {
             File localFile = null;
             if(!file.isEmpty()){
                 try {
-                    //本地文件的根路径
+                    //本地文件的根路径 也就是图片全路径
                     localFile = saveToLocal(file,filePath);
+
                     // 把第一个字符串  按照第二个分割,留下后面的
                     // Users/xieminghui/100/imgs  Users/xieminghui -> /100/imgs
                     String path = StringUtils.substringAfterLast(localFile.getAbsolutePath(),filePath);

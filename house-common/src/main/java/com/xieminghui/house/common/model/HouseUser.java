@@ -7,7 +7,7 @@ public class HouseUser {
 	private Long houseId;
 	private Long userId;
 	private Date  createTime;
-	private Integer type;
+	private Integer type; //sale表示1   收藏的表示2
 	public Long getId() {
 		return id;
 	}

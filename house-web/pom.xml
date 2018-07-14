@@ -93,23 +93,23 @@
 
 
     </dependencies>
-
+    <!-- 打包部署
+        命令行：	mvn clean package -DskipTests   //跳过打包单元测试
+        启动 只要在该打包的zip jar包下面 下面执行
+        cd 到web下面target可以找到打包的jar
+        java -jar	xxx.jar 就可以开始运行了
+        或者后台运行的话就
+        nohup java -jar xxx.jar &
+        -->
     <build>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
+            <!-- springboot 打包的插件 -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.mooc.house.HouseApplication</mainClass>
+                    <!-- 打包的类型 -->
+                    <mainClass>com.xieminghui.house.HouseApplication</mainClass>
                     <layout>ZIP</layout>
                 </configuration>
                 <executions>

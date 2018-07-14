@@ -131,8 +131,9 @@
       set    state = 2
       where  id = #{id}
     </update>
-   
 
+
+    <!-- useGeneratedKeys="true" keyProperty="id" 作用就是当插入的时候，就把id写会插入的那个对象，因为一般id是数据库自增的 -->
    <insert id="insert"  useGeneratedKeys="true" keyProperty="id">
      insert into house(
                      type,

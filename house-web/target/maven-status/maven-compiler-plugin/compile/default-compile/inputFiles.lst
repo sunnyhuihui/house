@@ -1,0 +1,14 @@
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/mooc1/house/autoconfig/HttpClientProperties.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/AgencyController.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/HomePageController.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/HouseController.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/UserController.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/HouseApplication.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthInterceptor.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/Errorhandler.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/interceptor/AuthActionInterceptor.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/mooc1/house/autoconfig/HttpClientAutoConfiguration.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/controller/UserHelper.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/interceptor/UserContext.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/web/interceptor/WebMvcConf.java
+/Users/xieminghui/IdeaProjects/house/house-web/src/main/java/com/xieminghui/house/mooc1/house/autoconfig/EnableHttpClient.java

@@ -13,7 +13,8 @@ public class BeanHelper {
   
   private static final String createTimeKey  = "createTime";
  
-  
+
+  //给对象设置默认的值，如果是String类型的，就设置''字符串，是number类型的 就设置成0
   public static <T> void setDefaultProp(T target,Class<T> clazz) {
     PropertyDescriptor[] descriptors = PropertyUtils.getPropertyDescriptors(clazz);
     for (PropertyDescriptor propertyDescriptor : descriptors) {

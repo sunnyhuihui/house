@@ -75,22 +75,27 @@ public class HouseService {
 		});
 		return houses;
 	}
-	
+
+	/**
+	 *
+	 * @return 返回所有小区的列表
+	 */
 	public List<Community> getAllCommunitys() {
 		Community community = new Community();
 		return houseMapper.selectCommunity(community);
 	}
 
 	/**
-	 * 添加房屋图片
-	 * 添加户型图片
-	 * 插入房产信息
-	 * 绑定用户到房产的关系
+	 * 1 添加房屋图片  需要借入fileService
+	 * 2 添加户型图片
+	 * 3 插入房产信息
+	 * 4 绑定用户到房产的关系
 	 * @param house
 	 * @param user
 	 */
 	public void addHouse(House house, User user) {
 		if (CollectionUtils.isNotEmpty(house.getHouseFiles())) {
+			//借助工具类 把多个图片用 ， 号分别开来   List<MultipartFile>
 			String images = Joiner.on(",").join(fileService.getImgPaths(house.getHouseFiles()));
 		    house.setImages(images);
 		}
@@ -103,15 +108,16 @@ public class HouseService {
 		bindUser2House(house.getId(),user.getId(),false);
 	}
 
-	public void bindUser2House(Long houseId, Long userId, boolean collect) {
-      HouseUser existhouseUser =     houseMapper.selectHouseUser(userId,houseId,collect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
+	public void bindUser2House(Long houseId, Long userId, boolean isCollect) {
+      HouseUser existhouseUser =     houseMapper.selectHouseUser(userId,houseId,isCollect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
+      //查看房子和用户 关系是否存在，如果存在，就不需要在此绑定， 否则就需要绑定 两者的关系
 	  if (existhouseUser != null) {
 		  return;
 	  }
 	  HouseUser houseUser = new HouseUser();
 	  houseUser.setHouseId(houseId);
 	  houseUser.setUserId(userId);
-	  houseUser.setType(collect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
+	  houseUser.setType(isCollect ? HouseUserType.BOOKMARK.value : HouseUserType.SALE.value);
 	  BeanHelper.setDefaultProp(houseUser, HouseUser.class);
 	  BeanHelper.onInsert(houseUser);
 	  houseMapper.insertHouseUser(houseUser);
@@ -142,6 +148,7 @@ public class HouseService {
 	public void updateRating(Long id, Double rating) {
 		House house = queryOneHouse(id);
 		Double oldRating = house.getRating();
+		//不能超过5分
 		Double newRating  = oldRating.equals(0D)? rating : Math.min((oldRating+rating)/2, 5);
 		House updateHouse = new House();
 		updateHouse.setId(id);
